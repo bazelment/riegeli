@@ -56,8 +56,7 @@ java_library(
     deps = [
         ":loader",
         ":wrapper",
-        "@junit_long",
-        "@org_hamcrest_core",
+        "@universe//spark/maven-trees/spark_2.4/junit/junit",
     ],
 )
 
